@@ -1,5 +1,5 @@
 export class Settings {
-    constructor(public name: string, 
+    constructor(public name: string,
                 public loadingSpinner: boolean,
                 public fixedHeader:boolean,
                 public sidenavIsOpened: boolean,
@@ -8,5 +8,7 @@ export class Settings {
                 public menu: string,
                 public menuType: string,
                 public theme: string,
-                public rtl: boolean) { }
+                public sdfds : boolean,
+                public rtl: boolean)
+
 }
